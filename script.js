@@ -3,7 +3,7 @@
 function login() {
     var phoneNumber = document.getElementById("loginPhoneNumber").value;
     sessionStorage.setItem("phoneNumber", phoneNumber);
-    window.location.href = "registerPage.html";
+    window.location.href = "page2.html";
 }
 
 function register() {
@@ -14,7 +14,7 @@ function register() {
     sessionStorage.setItem("name", name);
     sessionStorage.setItem("email", email);
     sessionStorage.setItem("birthday", birthday);
-    window.location.href = "displayPage.html";
+    window.location.href = "page3.html";
    
 }
 function displayUserInformation() {
