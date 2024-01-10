@@ -1,0 +1,83 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+h2 {
+    color:rgb(109, 106, 106)
+}
+#loyalty {
+    color:orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+ 
+
+}
+
+.form-container {
+    width: 300px;
+    height: 550px;
+    margin: 200px;
+   
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #eda723;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#footer{
+   text-align: center;
+    border-top-style:solid;
+}
+#brandName {
+    color: rgb(55, 180, 242);
+}
